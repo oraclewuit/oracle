@@ -17,4 +17,7 @@ public class GoodsBIZ {
 		System.out.println("GoodsBIZ.save");
 		this.goodsDAO.save();
 	}
+	public void print(){
+		System.out.println("hello world");
+	}
 }
