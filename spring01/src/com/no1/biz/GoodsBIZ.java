@@ -10,6 +10,7 @@ public class GoodsBIZ {
 	}
 
 	public GoodsDAO getGoodsDAO() {
+		System.out.println("getGoodsDAO");
 		return goodsDAO;
 	}
 
